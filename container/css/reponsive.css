@@ -1,0 +1,131 @@
+/* Mobile & tablet */
+@media (max-width: 1023px){
+    .hide-on-mobile-tablet {
+        display: none;
+    }
+
+    .nav_bars_btn{
+        display: block;
+    }
+
+    .right-content {
+        padding-left: unset;
+    }
+
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .hide-on-tablet{
+        display: none;
+    }
+
+    /* Header */
+    #header{
+        width: 100%;
+        height: 115px;
+    }
+
+    .contact-info{
+        flex-direction: column;
+    }
+
+    .contact-info__email{
+        display: flex;
+        align-items: baseline
+    }
+
+    .contact-info__email i{
+        margin-right: 10px;
+    }
+
+    .contact-social-list{
+        margin: 8px 0px;
+    }
+
+    /* Nav */
+
+    .search-btn i.fas.fa-search{
+        font-size: 18px;
+        padding: 10px 10px;
+    }
+
+    .width-right{
+        display: flex;
+    }
+
+    .training_industry{
+        margin-right: 8px;
+    }
+
+    .content__hotnews{
+        margin-left: 8px;
+    }
+
+}
+
+/* Mobile */
+@media (max-width: 46.1875em){
+    .hide-on-mobile{
+        display: none;
+    }
+
+    .header__mobile{
+        justify-content: center;
+    }
+
+    #header{
+        height: unset;
+    }
+
+    #nav{
+        height: 36px;
+    }
+
+    .nav-wrap{
+        margin-left: 16px;
+    }
+
+    .nav_bars_btn{
+        margin: 4px;
+    }
+
+    .center_mobile{
+        width: 92%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    a.content-img {
+        display: block;
+    }
+
+
+    /* .add-fix.content-thumb{
+        width: 0;
+    } */
+
+    .department__animation-item{
+        height: 200px;
+    }
+
+    .video__container{
+        width: unset;
+    }
+
+    .main-video{
+        flex: auto;
+    }  
+
+}
+
+/*  PC Độ phân giải thấp */
+@media (min-width: 1024px) and (max-width: 1239px){
+   .nav-list{
+       display: none;
+   }
+
+   .nav_bars_btn{
+       display: block;
+   }
+}

@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --header-height: 97px;
+}
+
+body {
+    background: #fff;
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+}
+
+/* Thuoc tinh chung */
+
+
+.mt-8{
+    margin-top: 8px !important;
+}
+
+.mt-12{
+    margin-top: 12px !important;
+}
+
+.mt-4{
+    margin-top: 4px !important;
+}
+
+.mt-16{
+    margin-top: 16px !important;
+}
+
+.hovergreen:hover{
+    color: #047640;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+/* Responsive */
+
+.grid__full-width{
+    width: 100%;
+}
+
+/* body::-webkit-scrollbar {
+    display: none;
+} */
+
+/* Key frame */
+@keyframes fadeOut {
+    from { 
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+@keyframes growth{
+    from {
+        transform: scale(var(--growth-from));
+    }
+    to{
+        transform: scale(var(--growth-to));
+    }
+}
+
+.close{
+    display: none;
+}
+
+.open{
+    display: block;
+}
+
+.hide{
+    opacity: 0;
+}
+
+.show{
+    opacity: 1;
+}
+
+.visibility{
+    visibility: inherit !important;
+}
